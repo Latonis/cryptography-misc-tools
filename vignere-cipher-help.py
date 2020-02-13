@@ -1,7 +1,7 @@
 
 from collections import Counter
 
-string="E wirxirgi mw xli fewmg yrmx sj perkyeki almgl ibtviwwiw e gsqtpixi xlsyklx Mx hsiw xlmw fc jsppsamrk xli kveqqexmgep fewmg vypiw sj wcrxeb"
+string="e wirxirgi mw xli fewmg yrmx sj perkyeki almgl ibtviwwiw e gsqtpixi xlsyklx Mx hsiw xlmw fc jsppsamrk xli kveqqexmgep fewmg vypiw sj wcrxeb".replace(" ", "")
 total = 0
 
 for i in string:
@@ -16,4 +16,4 @@ for x in range(25):
     counts=Counter(newStr)
     for char in counts:
         totalfreq += (counts[char]/total) * (counts[char]/total)
-    print(newStr)
+    print(newStr + "\n")
